@@ -12,3 +12,13 @@ Note that:
 
 Nothing here should be too mysterious. I used expyriment but it should be easy
 to swap that for other frameworks.
+
+## How to use any of this?
+
+This is mostly intended as something to start from rather than a working
+experiment. However, with the right packages installed, `python experiment.py
+--help` should tell you that you need to give the script a `NIP` and
+a participant number. In addition to this, for testing/debugging, you can ask
+the script to run without an Eye Tracker connected (`--no-et`) or without the
+EGI (`--no-egi`). And if you run `python experiment.py 999 9 --no-egi --no-et`
+you should see what a calibration could look like.
